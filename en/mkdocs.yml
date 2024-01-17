@@ -1,4 +1,4 @@
-site_name: ICD-11 Coding Tool Homepage
+site_name: ICD-11 Coding Tool Help
 
 theme:
     name: null
@@ -24,9 +24,9 @@ markdown_extensions:
   - footnotes
 
 nav:
-  - Searching: 'Searching.md'
-  - Integrated browser: 'Integrated-browser.md'
-  - Postcoordination: 'Postcoordination.md'
-  - Coding Note: 'Coding-Note.md'
-  - Related categories in maternal chapter: 'Related-categories-maternal-chapter.md'
-  - Related categories in perinatal chapter: 'Related-categories-perinatal-chapter.md'
+  - Searching: 'Searching_en.md'
+  - Integrated browser: 'Integrated-browser_en.md'
+  - Postcoordination: 'Postcoordination_en.md'
+  - Coding Note: 'Coding-Note_en.md'
+  - Related categories in maternal chapter: 'Related-categories-maternal-chapter_en.md'
+  - Related categories in perinatal chapter: 'Related-categories-perinatal-chapter_en.md'

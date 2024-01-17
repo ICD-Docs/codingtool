@@ -1,0 +1,1 @@
+﻿# Herramienta de codificación de la CIE-11 Ayuda

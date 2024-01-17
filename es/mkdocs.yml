@@ -1,0 +1,32 @@
+site_name: Herramienta de codificación de la CIE-11 Ayuda 
+
+theme:
+    name: null
+    custom_dir: 'custom_readthedocs/'
+    static_templates:
+      - 404.html
+    include_search_page: true
+    search_index_only: false
+    highlightjs: true
+    hljs_languages: []
+    include_homepage_in_sidebar: true
+    prev_next_buttons_location: bottom
+    navigation_depth: 3
+    titles_only: false
+    sticky_navigation: true
+    collapse_navigation: true
+
+
+plugins:
+    - search
+
+markdown_extensions:
+  - footnotes
+
+nav:
+  - Búsqueda: 'Searching_es.md'
+  - Navegador integrado: 'Integrated-browser_es.md'
+  - Poscoordinación: 'Postcoordination_es.md'
+  - Nota sobre la codificación: 'Coding-Note_es.md'
+  - Categorías relacionadas en el capítulo sobre causas maternas: 'Related-categories-maternal-chapter_es.md'
+  - Categorías relacionadas en el capítulo de afecciones perinatales: 'Related-categories-perinatal-chapter_es.md'
