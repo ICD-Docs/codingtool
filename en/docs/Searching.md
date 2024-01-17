@@ -1,4 +1,4 @@
-﻿# Searching test
+﻿# Searching test2
 
 The Coding Tool works by searching as the user continues typing in the searchbox: 
 
