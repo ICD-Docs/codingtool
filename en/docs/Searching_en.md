@@ -43,6 +43,7 @@ Coding Tool generates (and dynamically updates) two different outputs as the sea
     ![screenshot of Coding Tool entities list icon](img/entities-list-icons-v4.png "Coding Tool entities list icon")
 
     Every icon has a different meaning:
+    
     - Postcoordination is available for this entity: ![icon Postcoordination is available](img/icon-pa-v4.png "icon Postcoordination is available")
     - Postcoordination is mandatory for this entity: ![icon Postcoordination is mandatory](img/icon-pr-v4.png "icon Postcoordination is mandatory")
     - Coding note is available for this entity: ![icon Coding note is available](img/icon-cn-v4.png "icon Coding note is available")    

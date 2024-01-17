@@ -43,6 +43,7 @@ A medida que se introduce la búsqueda, la herramienta de codificación genera (
     ![screenshot of Coding Tool entities list icon](img/entities-list-icons-v3.png "Íconos de la lista de entidades encontradas en la búsqueda")
 
     Cada ícono tiene un significado diferente:
+    
     - Poscoordinación disponible para esta entidad: ![icon Postcoordination is available](img/icon-pa-v4.png "Ícono de poscoordinación disponible")
     - Poscoordinación obligatoria para esta entidad: ![icon Postcoordination is mandatory](img/icon-pr-v4.png "Ícono de poscoordinación obligatoria")
     - Nota de codificación disponible para esta entidad: ![icon Coding note is available](img/icon-cn-v4.png "Ícono de nota de codificación disponible")    
