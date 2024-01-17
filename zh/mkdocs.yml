@@ -1,0 +1,32 @@
+site_name: ICD-11编码工具 帮助
+
+theme:
+    name: null
+    custom_dir: 'custom_readthedocs/'
+    static_templates:
+      - 404.html
+    include_search_page: true
+    search_index_only: false
+    highlightjs: true
+    hljs_languages: []
+    include_homepage_in_sidebar: true
+    prev_next_buttons_location: bottom
+    navigation_depth: 3
+    titles_only: false
+    sticky_navigation: true
+    collapse_navigation: true
+
+
+plugins:
+    - search
+
+markdown_extensions:
+  - footnotes
+
+nav:
+  - 查找: 'Searching_zh.md'
+  - 嵌入式浏览器: 'Integrated-browser_zh.md'
+  - 后组配: 'Postcoordination_zh.md'
+  - 编码提示: 'Coding-Note_zh.md'
+  - 孕产妇章节的相关分类: 'Related-categories-maternal-chapter_zh.md'
+  - 围生期章节相关分类: 'Related-categories-perinatal-chapter_zh.md'
