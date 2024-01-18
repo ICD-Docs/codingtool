@@ -19,7 +19,8 @@ theme:
 
 
 plugins:
-    - search
+    - search:
+        lang: ar
 
 markdown_extensions:
   - footnotes

@@ -18,7 +18,9 @@ theme:
 
 
 plugins:
-    - search
+    - search:
+        min_search_length: 2
+        lang: zh
 
 markdown_extensions:
   - footnotes

@@ -18,7 +18,8 @@ theme:
 
 
 plugins:
-    - search
+    - search:
+        lang: tr
 
 markdown_extensions:
   - footnotes
