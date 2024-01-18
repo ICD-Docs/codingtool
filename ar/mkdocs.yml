@@ -1,8 +1,8 @@
 site_name: أداة الترميز في التصنيف-11 معلومات مساعدة
+site_description: RTL # set it to RTL for using RTL CSS
 
 theme:
     name: null
-    locale: ar # set it for using RTL CSS
     custom_dir: 'custom_readthedocs/'
     static_templates:
       - 404.html
