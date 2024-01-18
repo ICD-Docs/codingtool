@@ -1,0 +1,33 @@
+site_name: أداة الترميز في التصنيف-11 معلومات مساعدة
+
+theme:
+    name: null
+    locale: ar # set it for using RTL CSS
+    custom_dir: 'custom_readthedocs/'
+    static_templates:
+      - 404.html
+    include_search_page: true
+    search_index_only: false
+    highlightjs: true
+    hljs_languages: []
+    include_homepage_in_sidebar: true
+    prev_next_buttons_location: bottom
+    navigation_depth: 3
+    titles_only: false
+    sticky_navigation: true
+    collapse_navigation: true
+
+
+plugins:
+    - search
+
+markdown_extensions:
+  - footnotes
+
+nav:
+  - البحث‬: 'Searching_ar.md'
+  - المستعرض المدمج: 'Integrated-browser_ar.md'
+  - ⁧⁩الربط اللاحق⁧⁩: 'Postcoordination_ar.md'
+  - ملحوظة الترميز: 'Coding-Note_ar.md'
+  - الفئات ذات الصلة في الفصل المعني بالأمهات: 'Related-categories-maternal-chapter_ar.md'
+  - الفئات المرتبطة بفصل الفترة المُحيطة بالوِلادَة: 'Related-categories-perinatal-chapter_ar.md'
