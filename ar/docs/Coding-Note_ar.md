@@ -1,10 +1,9 @@
-﻿# Coding Note
+﻿# ملحوظة الترميز 
 
-When you have opened the detail of an entity in the results list, the "Coding Note" section is displayed if available to that entity (see screenshot below)
+عند فتح تفاصيل أحد الكيانات في قائمة النتائج، يتم عرض "ملحوظة الترميز" إذا كانت متاحة لهذا الكيان (انظر لقطة الشاشة أدناه).
 
-![screenshot of Coding Tool link for available coding note](img/browser-available-codingnote-v4.png "Coding Tool link for available coding note")
+![لقطة شاشة لرابط ملحوظة الترميز المتاحة في أداة الترميز](img/browser-available-codingnote-v4.png "رابط ملحوظة الترميز المتاحة في أداة الترميز")
 
-When you are on an entity in the integrated ICD-11 browser, the "Coding Note" section is shown as below
+عندما تكون في أحد الكيانات في المستعرض المدمج في التصنيف-11، يتم عرض قسم "ملحوظة الترميز" كما هو موضح أدناه.
 
-![screenshot of Coding Tool coding note example](img/codingnote-v4.png "Coding Tool coding note example")
-
+![لقطة شاشة لمثال على ملحوظة الترميز في أداة الترميز](img/codingnote-v4.png "مثال على ملحوظة الترميز في أداة الترميز")

@@ -1,25 +1,25 @@
-﻿# Related categories in perinatal chapter
+﻿# الفئات المرتبطة بفصل الفترة المُحيطة بالوِلادَة 
 
-When coding perinatal mortality, mostly the case is coded to Chapter 19. To simplify this and also to be able to keep the detail coming from the rest of the classification, ICD-11 Coding Tool provides you perinatal chapter alternative codes. 
+عند ترميز وفيات الفترة المحيطة بالولادة، يجري ترميز معظم الحالات وفق الفصل 19. ولتبسيط هذا الأمر، وللحفاظ على التفاصيل الواردة من باقي أجزاء التصنيف، توفر لك أداة ترميز التصنيف الدولي للأمراض-11 رموزًا بديلة لفصل الفترة المحيطة بالولادة. 
 
-If the search result has a perinatal code alternative, you'll see the K icon.
+إذا تضمنت نتائج البحث رمزًا بديلًا مرتبطًا بالفترة المحيطة بالولادة، فسترى أيقونة K.
 
-![icon related categories in perinatal chapter](img/icon-pl-v4.png "Related categories in perinatal chapter")
+![أيقونة الفئات المرتبطة بفصل الفترة المحيطة بالولادة](img/icon-pl-v4.png "فئات مرتبطة بفصل الفترة المحيطة بالولادة")
 
-When you open the details of the entity in the results list, the "Related categories in perinatal chapter" section is displayed for that entity.     
+عند فتح تفاصيل الكيان في قائمة النتائج، سيظهر قسم «الفئات المرتبطة بفصل الفترة المحيطة بالولادة» لهذا الكيان.     
 
-For example, the entity "Tuberculosis of eye" (1B12.1) has as related category in perinatal chapter the entity "Congenital tuberculosis" (KA61.0)
+على سبيل المثال: يتضمن الكيان «سل العين» (1B12.1) فئة ذات صلة في فصل الفترة المحيطة بالولادة «سل خِلقي» (KA61.0)
 
-![screenshot of Coding Tool link for related categories in perinatal chapter](img/browser-available-perinatal-v4.png "Coding Tool link for related categories in perinatal chapter")
+![لقطة شاشة لرابط الفئات المرتبطة بفصل الفترة المحيطة بالولادة في أداة الترميز](img/browser-available-perinatal-v4.png "رابط الفئات المرتبطة بفصل الفترة المحيطة بالولادة في أداة الترميز")
 
-When you are on an entity in the integrated ICD-11 browser, the "Related categories in perinatal chapter" section is shown as below
+عندما تكون في أحد الكيانات في المستعرض المدمج للتصنيف-11، يظهر قسم «الفئات المرتبطة بفصل الفترة المحيطة بالولادة» كما هو موضح أدناه.
 
-![screenshot of Coding Tool related categories in perinatal chapter example](img/browser-available-perinatal-integrated-v4.png "Coding Tool related categories in perinatal chapter example")
+![لقطة شاشة لمثال على الفئات المرتبطة بفصل الفترة المحيطة بالولادة في أداة الترميز](img/browser-available-perinatal-integrated-v4.png "مثال على الفئات المرتبطة بفصل الفترة المحيطة بالولادة في أداة الترميز")
 
-Clicking on the link within the "Related categories in perinatal chapter" section, in this example KA61.0 (below underlined in red in the entity details screenshot and also in the integrated browser screenshot)
+عند النقر فوق الرابط الموجود في قسم «الفئات المرتبطة بفصل الفترة المحيطة بالولادة»، في المثال KA61.0 (الذي يظهر أسفله خط أحمر في لقطة الشاشة لتفاصيل الكيان، وأيضًا في لقطة الشاشة للمستعرض المدمج)
 
-![screenshot of Coding Tool link for related categories in perinatal chapter link](img/browser-available-perinatal-link-v4.png "Coding Tool link for related categories in perinatal chapter link")
+![لقطة شاشة لرابط الفئات المرتبطة بفصل الفترة المحيطة بالولادة في أداة الترميز](img/browser-available-perinatal-link-v4.png "رابط الفئات المرتبطة بفصل الفترة المحيطة بالولادة في أداة الترميز")
 
-The integrated browser directly opens the related entity in the perinatal chapter (in the example below: "KA61.0 Congenital tuberculosis") without any user intervention
+يفتح المستعرض المدمج مباشرة الكيان ذا الصلة بفصل الفترة المحيطة بالولادة (في المثال أدناه: «KA61.0 سل خِلقي») دون أي تدخل من المستخدم
 
-![screenshot of Coding Tool for related categories in perinatal chapter example](img/perinatal-v4.png "Coding Tool for related categories in perinatal chapter example")
+![لقطة شاشة لمثال على الفئات المرتبطة بفصل الفترة المحيطة بالولادة في أداة الترميز](img/perinatal-v4.png "مثال على الفئات المرتبطة بفصل الفترة المحيطة بالولادة في أداة الترميز")

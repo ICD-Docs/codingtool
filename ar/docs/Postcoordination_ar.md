@@ -1,96 +1,96 @@
-﻿# Postcoordination
+﻿# ⁧⁩الربط اللاحق⁧⁩      
 
-The postcoordination system allows adding more detail to the entity that is chosen. Different types of information can be added to different elements. For example, additional "Histopathology" information could be added to most of the Neoplasm categories but it cannot be added to the categories elsewhere in the classification.
+يتيح لك نظام الربط اللاحق إضافة المزيد من التفاصيل إلى الكيان المحدد. ويمكن إضافة شتى أنواع المعلومات إلى العناصر المختلفة. على سبيل المثال، يمكن إضافة معلومات "الباثولوجيا النسيجية" الإضافية إلى معظم فئات الأورام، ولكن لا يمكن إضافتها إلى الفئات الموجودة في أماكن أخرى في التصنيف.
 
-When you have opened the detail of an entity in the results list, the postcoordination link is only displayed if postcoordination is applicable to that entity (see screenshot below) 
+عند فتح تفاصيل أحد الكيانات في قائمة النتائج، يتم فقط عرض رابط الربط اللاحق إذا كان الربط اللاحق ينطبق على هذا الكيان (انظر لقطة الشاشة أدناه). 
 
-![screenshot of Coding Tool link for available postcoordination](img/browser-available-postcoord-v4.png "Coding Tool link for available postcoordination")
+![لقطة شاشة لرابط الربط اللاحق المتاح في أداة الترميز](img/browser-available-postcoord-v4.png "رابط الربط اللاحق المتاح في أداة الترميز")
 
-When you are on an entity in the integrated ICD-11 browser, the postcoordination area will only show the possible postcoordination axes that are applicable to that entity
+عندما تكون في أحد الكيانات في المتصفح المدمج للتصنيف-11، سيوضح قسم الربط اللاحق المحاور المحتملة فقط التي تنطبق على هذا الكيان.
 
-![screenshot of Coding Tool postcoordination example](img/postcoord-v4.png "Coding Tool postcoordination example")
+![لقطة شاشة لمثال على الربط اللاحق في أداة الترميز](img/postcoord-v4.png "مثال على الربط اللاحق في أداة الترميز")
 
-Some categories contain information that is incomplete for the multiple purposes of the ICD. In such cases, the icon is "Mandatory postcoordination"    
+تحتوي بعض الفئات على معلومات غير كاملة لأغراض متعددة تتعلق بالتصنيف الدولي للأمراض. في هذه الحالات، يكون واسِم الرابط "الربط اللاحق الإلزامي".    
 
-![screenshot of Coding Tool link for mandatory postcoordination](img/browser-mandatory-postcoord-v4.png "Coding Tool link for mandatory postcoordination")
+![لقطة شاشة لرابط الربط اللاحق الإلزامي في أداة الترميز](img/browser-mandatory-postcoord-v4.png "رابط الربط اللاحق الإلزامي في أداة الترميز")
 
-If the postcoordination is mandatory, the note "*(code also)*" in the browser's postcoordination area indicates that information needs to be added for that axis.   
+إذا كان الربط اللاحق إلزاميًا، فتشير ملحوظة "*(ينبغي أيضًا ترميز)*" في قسم الربط اللاحق بالمستعرض إلى ضرورة إضافة معلومات إلى هذا المحور.   
 
-![screenshot of Coding Tool mandatory postcoordination example](img/postcoord-mandatory-v4.png "Coding Tool mandatory postcoordination example")
+![لقطة شاشة لمثال على الربط اللاحق الإلزامي في أداة الترميز](img/postcoord-mandatory-v4.png "مثال على الربط اللاحق الإلزامي في أداة الترميز")
 
-For opening the postcoordination corresponding to a specific matching term, you have to click onto one of the postcoordination icons on the right side of the entity details content. 
-Icon can be Postcoordination is available:
+لفتح الرابط اللاحق المقابل لمصطلح مطابق بعينه، يتعين عليك النقر على إحدى أيقونات الرابط اللاحق على الجانب الأيمن لمحتوى تفاصيل الكيان. 
+فقد تكون هذه الأيقونة هي الربط اللاحق متاح لهذا الكيان:
 
-![icon Postcoordination is available](img/icon-pa-v4.png "icon Postcoordination is available")
+![أيقونة الربط اللاحق متاح](img/icon-pa-v4.png "أيقونة الربط اللاحق متاح")
 
-Or Postcoordination is mandatory: 
+أو الربط اللاحق إلزامي لهذا الكيان: 
 
-![icon Postcoordination is mandatory](img/icon-pr-v4.png "icon Postcoordination is mandatory")
+![أيقونة الربط اللاحق إلزامي](img/icon-pr-v4.png "أيقونة الربط اللاحق إلزامي")
 
-![screenshot of Coding Tool postcoordination selected term](img/postcoord-selected-term-v4.png "Coding Tool postcoordination selected term")
+![لقطة شاشة لمصطلح الربط اللاحق المحدد في أداة الترميز](img/postcoord-selected-term-v4.png "مصطلح الربط اللاحق المحدد في أداة الترميز")
 
-Into the integrated ICD-11 browser the corresponding matching term is shown as "Selected term". The Coding Tool will also show the Foundation URI of the selected term if it is different from the Foundation URI of the current entity (see screenshot below).
+يظهر المصطلح المطابق المقابل في المتصفح المدمج للتصنيف-11 تحت مسمى «المصطلح المحدد»، كما ستُظهِر أداة الترميز معرِّف المورد المحدد الأساسي للعنصر المحدد، إذا كان مختلفًا عن معرف المورد المحدد الأساسي للكيان الحالي (انظر لقطة الشاشة أدناه).
 
 ![screenshot of Coding Tool postcoordination selected term in browser](img/postcoord-selected-term-in-browser-v4.png "Coding Tool postcoordination selected term in browser")
 
 
-## Displaying / Searching value sets
 
-Some of the postcoordination axes can get values from a smaller set of possible values such as Laterality whereas some axes can get values from a larger value set such as Histopathology.
+## ⁧⁩عرض مجموعات القيم والبحث فيها 
 
-  - If the value set is small, the browser will show all possible values with their codes.
+يمكن أن تحصل بعض محاور الربط اللاحق على قيم من مجموعة أصغر من القيم المحتملة مثل الوضعيات الجانبية، بينما يمكن أن تحصل بعض المحاور على قيم من مجموعة أكبر نسبيًا من القيم مثل الباثولوجيا النسيجية.
 
-    ![screenshot of Coding Tool small value set postcoordination example](img/postcoord-small-v4.png "Coding Tool small value set postcoordination example")
+  - إذا كانت مجموعة القيم صغيرة، فسيعرض المتصفح جميع القيم المحتملة مع رموزها.
 
-  - If the value set is large, you browse through the hierarchy tree of the postcoordination axis. Otherwise, you can search the value sets by typing in the search box. The browser will search only the values for that axis.     
+    ![لقطة شاشة لمثال على الربط اللاحق لمجموعة صغيرة من القيم في أداة الترميز](img/postcoord-small.png "مثال على الربط اللاحق لمجموعة صغيرة من القيم في أداة الترميز")
 
-    ![screenshot of Coding Tool big value set postcoordination example](img/postcoord-big-v4.png "Coding Tool big value set postcoordination example")
+  - إذا كانت مجموعة القيم كبيرة، فيمكنك استعراضها من خلال الشجرة الهرمية لمحور الربط اللاحق. بخلاف ذلك، يمكنك البحث في مجموعات القيم بالكتابة في مربع البحث. وسيبحث المتصفح عن قيم هذا المحور فقط.     
+
+    ![لقطة شاشة لمثال على الربط اللاحق لمجموعة كبيرة من القيم في أداة الترميز](img/postcoord-big.png "مثال على الربط اللاحق لمجموعة كبيرة من القيم في أداة الترميز")
   
-  - Sometimes, even though the actual value set for an axis is large, not all values from the value set are applicable for an entity. In such cases, the browser will show/search only the relevant part. If the number of values that can be applied is less than 12, the browser will list all of them. If the result is larger than the browser will allow searching and browsing of the axis.
+  - في بعض الأحيان، حتى وإن كانت مجموعة القيم الفعلية لأحد المحاور كبيرة، لا تنطبق جميع القيم من هذه المجموعة على أحد الكيانات. في مثل هذه الحالة، يعرض المتصفح الجزء ذي الصلة أو يبحث فيه فقط. إذا كان عدد القيم التي تنطبق أقل من 12 قيمة، فسيُدرج المتصفح جميع هذه القيم. إذا كانت النتيجة أكبر من ذلك، فسيتيح المتصفح البحث في المحور وتصفحه.
 
-    For example, Aneurysmal bone cyst can be postcoordinated with Specific Anatomic Detail but not all values are applicable. In such cases, the browser will display/search only the relevant ones. In the example below, when the user searches "head", the system only shows the hits that are in the "bones" branch of the "Specific anatomic detail" axis. 
+    على سبيل المثال، يمكن الربط اللاحق للمصطلح "كيسَة عَظمِيَّة أمدَمِّيَّة/كيس أُمِّ الدَّم في عَظم" مع "تفصيلة تشريحية نوعية"، ولكن لا تنطبق جميع القيم. في مثل هذه الحالة، يعرض المتصفح القيم ذات الصلة أو يبحث فيها فقط. في المثال أدناه، عندما يبحث المستخدم عن كلمة "رأس"، يعرض النظام النتائج الموجودة فقط في فرع "العظام" المتفرع من محور "تفصيلة تشريحية نوعية". 
     
-    ![screenshot of Coding Tool search postcoordination example](img/postcoord-search-v4.png "Coding Tool search postcoordination example")
+    ![لقطة شاشة لمثال على الربط اللاحق في البحث في أداة الترميز](img/postcoord-search-v2.png "مثال على الربط اللاحق في البحث في أداة الترميز")
 
 
-## Building a Code String
+## ⁧⁩إنشاء سلسلة رمز⁧⁩ 
 
-To build a code you need to click on the values that are displayed in the search results, in the hierarchy or in the shorter lists. 
+لإنشاء رمز، يجب النقر فوق القيم المعروضة في نتائج البحث، في قوائم التسلسل الهرمي أو القوائم الأقصر. 
 
-The example below shows how to code "malignant neoplasm of breast detailed with laterality and specific anatomy".     
-The postcoordination selections are shown at the top of the postcoordination section and the code string generated is shown above the postcoordination section.     
-Clicking on the "Select" button copies the code string generated into the clipboard.
+يوضح المثال أدناه كيفية ترميز "ورم خبيث في الثَديّ" بالتفصيل مع الوضعيات الجانبية والتشريح النوعي.     
+يتم عرض تحديدات الربط اللاحق أعلى قسم الربط اللاحق، ويتم عرض سلسلة الرمز الناتجة فوق قسم الربط اللاحق.     
+يؤدي النقر فوق زر "تحديد" إلى نسخ سلسلة الرمز الناتجة في الحافظة.
 
-![screenshot of Coding Tool building a code string](img/postcoord-build-v4.png "Coding Tool building a code string")
-
-
-## Postcoordination using multiple values from the same axis
-
-The system allows one value per axis for most of the postcoordination axes.      
-For example, when postcoordinating with "severity" you can't pick the value "mild" and "moderate" at the same time. However, for certain axes, the system does allow selecting multiple values. The axes that allow multiple values are listed below:
-
-- Associated with
-- Causing condition
-- Has manifestation
-- Specific anatomy
-- Infectious agents
-- Chemical agents
-- Medication
-
-For these axes, you may select more than one value. For example, when postcoordination with specific anatomy is allowed, you may select more than one site
-
-![screenshot of Coding Tool postcoordination multiple values from the same axis](img/postcoord-multiple-v4.png "Coding Tool postcoordination multiple values from the same axis")
-
-For some of the external causes axes, we allow multiple values only when they come from different blocks
-
-For example, when postcoordinating Unintentional land transport traffic event injuring a pedal cyclist using the Transport event descriptor axis, we can use one value from the block "VEHICLE USER ROLE OF PERSON INJURED IN TRANSPORT RELATED EVENT" and another from the block "COUNTERPART IN LAND TRANSPORT CRASH" but we can't use two values from the same block.
-
-When multiple values for an axis are not allowed and the user clicks on the second one, the system will replace the existing value. For example, when you are postcoordinating with severity and have already chosen mild as a value, clicking on moderate will replace the mild value with the moderate value. 
+![لقطة شاشة لإنشاء سلسلة رمز في أداة الترميز](img/postcoord-build.png "إنشاء سلسلة رمز في أداة الترميز")
 
 
-## Nested postcoordination
+## الربط اللاحق باستخدام قيم متعددة من نفس المحور 
 
-In certain cases the system may provide further specification of the postcoordination values. If the specific detail is known then select the more precise entity. If not then select the less specific entity.
+يتيح النظام قيمة واحدة لكل محور بالنسبة لمعظم محاور الربط اللاحق.      
+على سبيل المثال، عند الربط اللاحق مع "شديد"، لا يمكنك اختيار القيمة "خفيف" و"معتدل" في الوقت نفسه. ومع ذلك، يتيح النظام تحديد قيم متعددة مع بعض المحاور. موضح أدناه المحاور التي تتيح قيمًا متعددة:
 
-![screenshot of Coding Tool nested postcoordination](img/postcoord-nested-v4.png "Coding Tool nested postcoordination")
+- مترافق مع
+- حالة سببية
+- له مظاهر
+- التشريح النوعي
+- عوامل عدوى
+- عوامل كيميائية
+- أدوية
 
+بالنسبة لهذه المحاور، يمكنك تحديد أكثر من قيمة واحدة. على سبيل المثال، عندما يكون الربط اللاحق مع التشريح النوعي متاحًا يمكنك تحديد أكثر من موضع في الجسم.
+
+![لقطة شاشة للربط اللاحق لقيم متعددة من نفس المحور في أداة الترميز](img/postcoord-multiple.png "الربط اللاحق لقيم متعددة من نفس المحور في أداة الترميز")
+
+وبالنسبة لبعض محاور الأسباب الخارجية، تُتاح القيم المتعددة فقط عندما تأتي من كتل مختلفة.
+
+على سبيل المثال، عند الربط اللاحق لمصطلح "حادث مروري غير قصدي بإصابة راكب درّاجة هوائية بدواستين" باستخدام محور "واصف لحادث نقل"، يمكننا استخدام قيمة واحدة من الكتلة "دور مستخدم المركبة في الشخص المصاب بحادث مواصلات" وقيمة واحدة من الكتلة "الطرف المقابل في حادث تصادم وسائط النقل البرية"، ولكن لا يمكننا استخدام قيمتين من نفس الكتلة.
+
+عندما لا يُسمح بقيم متعددة في أحد المحاور، ويقوم المستخدم بالنقر فوق المحور الثاني، يستبدل النظام القيمة الموجودة. على سبيل المثال، عند الربط اللاحق مع كلمة "شديد" وأنت قد اخترت بالفعل كلمة "خفيف" بمثابة قيمة، فإن النقر فوق كلمة "معتدل" سيؤدي إلى استعاضة القيمة "خفيف" بالقيمة "معتدل". 
+
+
+## ⁧⁩الربط اللاحق المتداخل⁧⁩ 
+
+في حالات محددة، قد يوفر النظام تحديدًا إضافيًا لقيم الربط اللاحق. إذا كانت التفاصيل النوعية معروفة، فينبغي تحديد الكيان الأكثر دقة. وإذا لم يتم تحديده، فينبغي تحديد الكيان الأقل نوعية.
+
+![لقطة شاشة للربط اللاحق المتداخل في أداة الترميز](img/postcoord-nested.png "الربط اللاحق المتداخل في أداة الترميز")

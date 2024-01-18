@@ -1,31 +1,28 @@
-﻿# Integrated browser
+﻿# المستعرض المدمج
 
-When the entity details are displayed, clicking on the maximize icon (the small square indicated in the screenshot below) opens the ICD-11 browser within the coding tool
+عندما يتم عرض تفاصيل الكيان، وعند النقر فوق أيقونة تكبير (المربع الصغير المشار إليه في لقطة الشاشة أدناه) يتم فتح مستعرض التصنيف-11 داخل أداة الترميز.
 
-![screenshot of Coding Tool browser link](img/browser-link-v4.png "Coding Tool browser link")
+![لقطة شاشة لرابط المستعرض في أداة الترميز](img/browser-link-v4.png "رابط المستعرض في أداة الترميز")
 
-The integrated ICD-11 browser is displayed in the page as a foreground window
+يتم عرض المستعرض المدمج للتصنيف-11 في الصفحة بمثابة نافذة أمامية.
 
-![screenshot of Coding Tool integrated browser](img/browser-v4.png "Coding Tool integrated browser")
+![لقطة شاشة للمستعرض المدمج في أداة الترميز](img/browser-v4.png "المستعرض المدمج في أداة الترميز")
 
-The entity's data displayed on the right side of the browser are (if present):
+فيما يلي بيانات الكيانات التي يتم عرضها على الجانب الأيمن من المستعرض (إن وُجِدَت):
 
-- Fully Specified Name
-- Description
-- Additional Information
-- Inclusions
-- Exclusions
-- Exclusions from above levels
-- Coded Elsewhere
-- Related categories in maternal chapter
-- Related categories in perinatal chapter
-- Coding Note
-- Coding Note from above levels
-- Postcoordination
+- اسم تم تعيينه بالكامل
+- الوصف
+- المعلومات الإضافية
+- المُشْتَمَلات
+- المُسْتَبْعَدات
+- المُسْتَبْعَدات من المستويات الأعلى
+- تم ترميزه في مكان آخر
+- ملحوظة الترميز
+- الربط اللاحق
 
-When browsing ICD-11, you will see the classification hierarchy on the left side of the screen. Clicking on any entity will display the details of that entity on the right side of the screen
+عند تصفح التصنيف-11، ستجد التسلسل الهرمي لموضوعات التصنيف على يسار الشاشة. عند النقر فوق أي كيان، ستظهر تفاصيل هذا الكيان على يمين الشاشة.
 
-Initially, the system only opens the hierarchy of the selected code. However, you may make the children of every entity visible by clicking on the small triangles on the left side of the entities. 
+في البداية، يفتح النظام التسلسل الهرمي للرمز المحدد فقط. ومع ذلك، يمكنك عرض العناصر التابعة لكل كيان بالنقر فوق المثلثات الصغيرة الموجودة على يسار الكيانات. 
 
-![screenshot of Coding Tool integrated browser open children](img/browser-triangle.png "Coding Tool integrated browser open children")
+![لقطة شاشة للعناصر التابعة المفتوحة في المستعرض المدمج في أداة الترميز](img/browser-triangle.png "العناصر التابعة المفتوحة في المستعرض المدمج في أداة الترميز")
 
