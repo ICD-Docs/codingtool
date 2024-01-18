@@ -1,96 +1,94 @@
-﻿# Postcoordination
+﻿# 后组配  
 
-The postcoordination system allows adding more detail to the entity that is chosen. Different types of information can be added to different elements. For example, additional "Histopathology" information could be added to most of the Neoplasm categories but it cannot be added to the categories elsewhere in the classification.
+后组配系统允许对选择的实体补充更多细节信息。不同分类可以补充不同类型信息。例如，为大部分的肿瘤分类补充额外的肿瘤形态学信息但该补充的信息不可用于其他分类。
 
-When you have opened the detail of an entity in the results list, the postcoordination link is only displayed if postcoordination is applicable to that entity (see screenshot below) 
+当你在结果列表中打开一个实体细节信息时，后组配区域仅能显示适用于该实体的后组配链接。(请见下图) 
 
 ![screenshot of Coding Tool link for available postcoordination](img/browser-available-postcoord-v4.png "Coding Tool link for available postcoordination")
 
-When you are on an entity in the integrated ICD-11 browser, the postcoordination area will only show the possible postcoordination axes that are applicable to that entity
+当您在ICD-11浏览器中选择一个实体时，后组配区域仅能显示可能的适用于该实体的后组配轴心。
 
 ![screenshot of Coding Tool postcoordination example](img/postcoord-v4.png "Coding Tool postcoordination example")
 
-Some categories contain information that is incomplete for the multiple purposes of the ICD. In such cases, the icon is "Mandatory postcoordination"    
+若一些分类因包含的信息不完整从而无法满足ICD的多用途应用时，“标签”链接将被设置为强制性后组配。  
 
 ![screenshot of Coding Tool link for mandatory postcoordination](img/browser-mandatory-postcoord-v4.png "Coding Tool link for mandatory postcoordination")
 
-If the postcoordination is mandatory, the note "*(code also)*" in the browser's postcoordination area indicates that information needs to be added for that axis.   
+如果后组配是强制的，在浏览器中后组配区域注释的“另编码”则表示必须补充该轴心的相关信息。  
 
 ![screenshot of Coding Tool mandatory postcoordination example](img/postcoord-mandatory-v4.png "Coding Tool mandatory postcoordination example")
 
-For opening the postcoordination corresponding to a specific matching term, you have to click onto one of the postcoordination icons on the right side of the entity details content. 
-Icon can be Postcoordination is available:
+若要打开某一特定匹配术语相应的后组配，您需要点击实体详情右侧的其中一个后组配图标。    
+图标可能是存在可用后组配:
 
 ![icon Postcoordination is available](img/icon-pa-v4.png "icon Postcoordination is available")
 
-Or Postcoordination is mandatory: 
+或者存在强制性后组配: 
 
 ![icon Postcoordination is mandatory](img/icon-pr-v4.png "icon Postcoordination is mandatory")
 
 ![screenshot of Coding Tool postcoordination selected term](img/postcoord-selected-term-v4.png "Coding Tool postcoordination selected term")
 
-Into the integrated ICD-11 browser the corresponding matching term is shown as "Selected term". The Coding Tool will also show the Foundation URI of the selected term if it is different from the Foundation URI of the current entity (see screenshot below).
+在嵌入式ICD-11浏览器中，相应的匹配术语将显示为“选定术语”。若选定术语的基础组件URI不同于当前实体，编码工具也将显示其基础组件URI。(请见下图)。
 
 ![screenshot of Coding Tool postcoordination selected term in browser](img/postcoord-selected-term-in-browser-v4.png "Coding Tool postcoordination selected term in browser")
 
 
-## Displaying / Searching value sets
+## 数据集显示和检索
 
-Some of the postcoordination axes can get values from a smaller set of possible values such as Laterality whereas some axes can get values from a larger value set such as Histopathology.
+一些后组配轴心能够从较小的数据集中获得可能的数值，例如单双侧。而另外一些轴心可以从很大的数据集获得数值，例如肿瘤形态学。
 
-  - If the value set is small, the browser will show all possible values with their codes.
+  - 如果是小数据集，浏览器将显示所有可能的数值及其编码。
 
     ![screenshot of Coding Tool small value set postcoordination example](img/postcoord-small-v4.png "Coding Tool small value set postcoordination example")
 
-  - If the value set is large, you browse through the hierarchy tree of the postcoordination axis. Otherwise, you can search the value sets by typing in the search box. The browser will search only the values for that axis.     
+  - 如果是大数据集，你可以浏览后组配轴心的层级树状结构。另外，你可以在搜索框中键入检索词实现数值搜索。浏览器仅会在本轴心内搜索数值。
 
     ![screenshot of Coding Tool big value set postcoordination example](img/postcoord-big-v4.png "Coding Tool big value set postcoordination example")
   
-  - Sometimes, even though the actual value set for an axis is large, not all values from the value set are applicable for an entity. In such cases, the browser will show/search only the relevant part. If the number of values that can be applied is less than 12, the browser will list all of them. If the result is larger than the browser will allow searching and browsing of the axis.
+  - 有时，即使某一轴心的数据集很大，但并不是内部所有数值均适用于某个疾病。在这种情况下，浏览器仅会显示或查找出相关的部分。如果适合的数值个数小于12个，浏览器将列出全部。如果结果数值更多，浏览器允许查找和浏览该轴心。
 
-    For example, Aneurysmal bone cyst can be postcoordinated with Specific Anatomic Detail but not all values are applicable. In such cases, the browser will display/search only the relevant ones. In the example below, when the user searches "head", the system only shows the hits that are in the "bones" branch of the "Specific anatomic detail" axis. 
+    例如：动脉瘤性骨囊肿可以使用特殊解剖细节信息进行后组配，但并不是所有数值都适合选择。在此种情况下，浏览器将显示或查找与之相关部分。在下面例子中，当用户查找“头”时，系统仅会显示特殊解剖细节轴心中骨骼分支中的命中结果。
     
     ![screenshot of Coding Tool search postcoordination example](img/postcoord-search-v4.png "Coding Tool search postcoordination example")
 
 
-## Building a Code String
+## 构建编码串
 
-To build a code you need to click on the values that are displayed in the search results, in the hierarchy or in the shorter lists. 
+构建一个编码时，你需要点击查找索结果、层级结构或短列表中显示的数值。
 
-The example below shows how to code "malignant neoplasm of breast detailed with laterality and specific anatomy".     
-The postcoordination selections are shown at the top of the postcoordination section and the code string generated is shown above the postcoordination section.     
-Clicking on the "Select" button copies the code string generated into the clipboard.
+下面的例子所显示是如何通过编码为乳腺恶性肿瘤提供单侧和部位的等细节信息。
+后组配选项显示在后组配区域的最上面，生成的编码串显示在后组配区域的上面。   
+点击“选择”按钮，复制的编码串会出现在剪切板中.
 
 ![screenshot of Coding Tool building a code string](img/postcoord-build-v4.png "Coding Tool building a code string")
 
 
-## Postcoordination using multiple values from the same axis
+## 使用同一轴心多个数值的后组配
 
-The system allows one value per axis for most of the postcoordination axes.      
-For example, when postcoordinating with "severity" you can't pick the value "mild" and "moderate" at the same time. However, for certain axes, the system does allow selecting multiple values. The axes that allow multiple values are listed below:
+对于大部分后组配轴心，系统仅允许每个轴心选择一个数值。例如，当选择后组配数值“重度”时，此时不可以再同时选择“轻度”和”中度”。但是在某些轴心，系统允许选择多个数值。允许使用多个数值的轴心如下：
+•	与…..有关
+•	引起的情况
+•	具有的临床表现
+•	特定解剖结构
+•	感染原
+•	化学制剂
+•	药物制剂
 
-- Associated with
-- Causing condition
-- Has manifestation
-- Specific anatomy
-- Infectious agents
-- Chemical agents
-- Medication
-
-For these axes, you may select more than one value. For example, when postcoordination with specific anatomy is allowed, you may select more than one site
+对于这些轴心，您可以选择更多数值。例如：当被允许使用某特定解剖部位作为后组配时，您可以选择多个部位。
 
 ![screenshot of Coding Tool postcoordination multiple values from the same axis](img/postcoord-multiple-v4.png "Coding Tool postcoordination multiple values from the same axis")
 
-For some of the external causes axes, we allow multiple values only when they come from different blocks
+对于其他外因轴心，仅当来源于不同类别时我们允许使用多个数值。
 
-For example, when postcoordinating Unintentional land transport traffic event injuring a pedal cyclist using the Transport event descriptor axis, we can use one value from the block "VEHICLE USER ROLE OF PERSON INJURED IN TRANSPORT RELATED EVENT" and another from the block "COUNTERPART IN LAND TRANSPORT CRASH" but we can't use two values from the same block.
+例如：当使用交通事件描述轴心对“陆地运输交通事故意外伤及骑车人”进行后组配时，我们可以从类别“运输事件受害者的车辆使用者角色”中选择一个数值，同时可以在类别“陆地运输碰撞中对方受害者”中选择另一个数值，但我们不允许在相同类别中国选择两个数值。
 
-When multiple values for an axis are not allowed and the user clicks on the second one, the system will replace the existing value. For example, when you are postcoordinating with severity and have already chosen mild as a value, clicking on moderate will replace the mild value with the moderate value. 
+不允许使用同一轴心的多个数值。用户点击第二个数值，系统会自动替换之前的数值。例如，当你选择严重程度作为后组配时，如果你已经选择了“轻度”这一数值，此时点击“中度”数值则会替换掉“轻度”的数值。
 
 
-## Nested postcoordination
+## 嵌套后组配
 
-In certain cases the system may provide further specification of the postcoordination values. If the specific detail is known then select the more precise entity. If not then select the less specific entity.
+在某些案例中，系统允许对后组配数值提供更加详细的描述。如果已知特定的细节信息，然后选择更加精确的实体。如果没有，则选择较低特异性的实体。
 
 ![screenshot of Coding Tool nested postcoordination](img/postcoord-nested-v4.png "Coding Tool nested postcoordination")
 
