@@ -26,9 +26,9 @@ markdown_extensions:
   - footnotes
 
 nav:
-  - البحث‬: 'Searching_ar.md'
-  - المستعرض المدمج: 'Integrated-browser_ar.md'
-  - ⁧⁩الربط اللاحق⁧⁩: 'Postcoordination_ar.md'
-  - ملحوظة الترميز: 'Coding-Note_ar.md'
-  - الفئات ذات الصلة في الفصل المعني بالأمهات: 'Related-categories-maternal-chapter_ar.md'
-  - الفئات المرتبطة بفصل الفترة المُحيطة بالوِلادَة: 'Related-categories-perinatal-chapter_ar.md'
+  - البحث‬: 'Searching.md'
+  - المستعرض المدمج: 'Integrated-browser.md'
+  - ⁧⁩الربط اللاحق⁧⁩: 'Postcoordination.md'
+  - ملحوظة الترميز: 'Coding-note.md'
+  - الفئات ذات الصلة في الفصل المعني بالأمهات: 'Related-categories-maternal-chapter.md'
+  - الفئات المرتبطة بفصل الفترة المُحيطة بالوِلادَة: 'Related-categories-perinatal-chapter.md'
