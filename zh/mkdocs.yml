@@ -24,9 +24,9 @@ markdown_extensions:
   - footnotes
 
 nav:
-  - 查找: 'Searching_zh.md'
-  - 嵌入式浏览器: 'Integrated-browser_zh.md'
-  - 后组配: 'Postcoordination_zh.md'
-  - 编码提示: 'Coding-Note_zh.md'
-  - 孕产妇章节的相关分类: 'Related-categories-maternal-chapter_zh.md'
-  - 围生期章节相关分类: 'Related-categories-perinatal-chapter_zh.md'
+  - 查找: 'Searching.md'
+  - 嵌入式浏览器: 'Integrated-browser.md'
+  - 后组配: 'Postcoordination.md'
+  - 编码提示: 'Coding-note.md'
+  - 孕产妇章节的相关分类: 'Related-categories-maternal-chapter.md'
+  - 围生期章节相关分类: 'Related-categories-perinatal-chapter.md'
