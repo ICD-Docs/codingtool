@@ -25,9 +25,9 @@ markdown_extensions:
   - footnotes
 
 nav:
-  - Búsqueda: 'Searching_es.md'
-  - Navegador integrado: 'Integrated-browser_es.md'
-  - Poscoordinación: 'Postcoordination_es.md'
-  - Nota sobre la codificación: 'Coding-Note_es.md'
-  - Categorías relacionadas en el capítulo sobre causas maternas: 'Related-categories-maternal-chapter_es.md'
-  - Categorías relacionadas en el capítulo de afecciones perinatales: 'Related-categories-perinatal-chapter_es.md'
+  - Búsqueda: 'Searching.md'
+  - Navegador integrado: 'Integrated-browser.md'
+  - Poscoordinación: 'Postcoordination.md'
+  - Nota sobre la codificación: 'Coding-note.md'
+  - Categorías relacionadas en el capítulo sobre causas maternas: 'Related-categories-maternal-chapter.md'
+  - Categorías relacionadas en el capítulo de afecciones perinatales: 'Related-categories-perinatal-chapter.md'
