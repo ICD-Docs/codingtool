@@ -25,9 +25,9 @@ markdown_extensions:
   - footnotes
 
 nav:
-  - Поиск: 'Searching_ru.md'
-  - Встроенный браузер: 'Integrated-browser_ru.md'
-  - Посткоординация: 'Postcoordination_ru.md'
-  - Примечание к кодированию: 'Coding-Note_ru.md'
-  - Связанные рубрики в классе о материнстве: 'Related-categories-maternal-chapter_ru.md'
-  - Связанные рубрики в перинатальном классе: 'Related-categories-perinatal-chapter_ru.md'
+  - Поиск: 'Searching.md'
+  - Встроенный браузер: 'Integrated-browser.md'
+  - Посткоординация: 'Postcoordination.md'
+  - Примечание к кодированию: 'Coding-note.md'
+  - Связанные рубрики в классе о материнстве: 'Related-categories-maternal-chapter.md'
+  - Связанные рубрики в перинатальном классе: 'Related-categories-perinatal-chapter.md'
