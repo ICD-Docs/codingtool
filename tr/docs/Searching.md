@@ -1,6 +1,6 @@
 ﻿# Aramalar <a name="searching"></a>
             
-The Coding Tool works by searching as the user continues typing in the searchbox: 
+Kodlama aracı, arama kutusuna yazmaya başladığınızda aramayı başlatır
 
 ![screenshot of Coding Tool search start](img/search-start-v4.png "Kodlama Aracında aramanın başlaması")
 

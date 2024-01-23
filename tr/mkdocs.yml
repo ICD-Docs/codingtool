@@ -25,9 +25,9 @@ markdown_extensions:
   - footnotes
 
 nav:
-  - Aramalar: 'Searching_tr.md'
-  - Entegre tarayıcı: 'Integrated-browser_tr.md'
-  - Postkoordinasyon: 'Postcoordination_tr.md'
-  - Kodlama Notu: 'Coding-Note_tr.md'
-  - Annelik bölümündeki ilgili kategoriler: 'Related-categories-maternal-chapter_tr.md'
-  - Perinatal bölümündeki ilgili kategoriler: 'Related-categories-perinatal-chapter_tr.md'
+  - Aramalar: 'Searching.md'
+  - Entegre tarayıcı: 'Integrated-browser.md'
+  - Postkoordinasyon: 'Postcoordination.md'
+  - Kodlama Notu: 'Coding-note.md'
+  - Annelik bölümündeki ilgili kategoriler: 'Related-categories-maternal-chapter.md'
+  - Perinatal bölümündeki ilgili kategoriler: 'Related-categories-perinatal-chapter.md'
