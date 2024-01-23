@@ -25,9 +25,9 @@ markdown_extensions:
   - footnotes
 
 nav:
-  - Recherche: 'Searching_fr.md'
-  - Navigateur intégré: 'Integrated-browser_fr.md'
-  - Postcoordination: 'Postcoordination_fr.md'
-  - Note de codage: 'Coding-Note_fr.md'
-  - Catégories connexes dans le chapitre maternité: 'Related-categories-maternal-chapter_fr.md'
-  - Catégories connexes dans le chapitre périnatal: 'Related-categories-perinatal-chapter_fr.md'
+  - Recherche: 'Searching.md'
+  - Navigateur intégré: 'Integrated-browser.md'
+  - Postcoordination: 'Postcoordination.md'
+  - Note de codage: 'Coding-note.md'
+  - Catégories connexes dans le chapitre maternité: 'Related-categories-maternal-chapter.md'
+  - Catégories connexes dans le chapitre périnatal: 'Related-categories-perinatal-chapter.md'
