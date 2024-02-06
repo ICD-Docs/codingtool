@@ -86,9 +86,24 @@
 不允许使用同一轴心的多个数值。用户点击第二个数值，系统会自动替换之前的数值。例如，当你选择严重程度作为后组配时，如果你已经选择了“轻度”这一数值，此时点击“中度”数值则会替换掉“轻度”的数值。
 
 
+## 后组配/预组配等同
+
+在某些案例中，用户构建的编码组合可能与分类中已经存在的实体等同。此时，系统会自动使用预组配编码。 本例中, 用户已经选择了浸润性乳腺癌以及形态学后组配 浸润性导管癌, NOS. 但系统仅会给出一个编码而不是两个编码，因为分类中存在能够涵盖上述信息的 “2C61.0乳腺浸润性导管癌”，因此系统会给出该编码。 
+
+![screenshot of the pre-coordination equivalence](img/pre-coordination.png "Pre-coordination equivalence")
+
+
 ## 嵌套后组配
 
 在某些案例中，系统允许对后组配数值提供更加详细的描述。如果已知特定的细节信息，然后选择更加精确的实体。如果没有，则选择较低特异性的实体。
 
 ![screenshot of Coding Tool nested postcoordination](img/postcoord-nested-v4.png "Coding Tool nested postcoordination")
 
+
+## 其他后组配
+
+许多实体已经提示或规定了与它们相关的后组配轴心。您可以在后组配区域中看到这些轴心，并使用它们来细化实体。
+
+然而，有时您可能需要将一个实体与其他未建议或规定的实体进行后组配。在这种情况下，您可以在“其他后组配”区域来使用更广泛的分类实体集构建后组配表达式。
+
+![screenshot of Coding Tool other postcoordination](img/other-postcoordination.png "Coding Tool other postcoordination")

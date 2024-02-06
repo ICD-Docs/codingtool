@@ -1,4 +1,4 @@
-﻿# Aramalar <a name="searching"></a>
+﻿# Aramalar
             
 Kodlama aracı, arama kutusuna yazmaya başladığınızda aramayı başlatır
 
@@ -8,7 +8,7 @@ Arama devam ederken Kodlama Aracı iki farklı çıktı üretir (ve dinamik olar
 
 ![screenshot of Coding Tool search results](img/search-result-columns-v4.png "Kodlama Aracında aramanın başlaması")
             
-1. ## Kelime Listesi <a name="word-list"></a>
+1. ## Kelime Listesi
     
     Sol tarafta, Kodlama Aracı bir kelime listesi gösterir.
 
@@ -29,7 +29,7 @@ Arama devam ederken Kodlama Aracı iki farklı çıktı üretir (ve dinamik olar
 
     <br/>
 
-2. ## Hedef Öğeler <a name="destination-entities"></a>
+2. ## Hedef Öğeler
     
     Kodlama Aracı arayüzünün orta çıktısı, aramanın eşleşen öğelerini gösterir.
  
@@ -67,7 +67,7 @@ Arama devam ederken Kodlama Aracı iki farklı çıktı üretir (ve dinamik olar
     ![screenshot of Coding Tool entity matching term](img/entity-matching-terms-v4.png "Kodlama Aracı öğe eşleşen terim")
 
 
-    ### Tam olmayan sonuçlar <a name="incomplete-results"></a>
+    ### Tam olmayan sonuçlar
    
     Aramada girilen kelime(ler) yeterince kesin değilse ve sistem gösterebileceğinden daha fazla sonuç bulursa aşağıdaki uyarıları verir:
 
@@ -80,7 +80,7 @@ Arama devam ederken Kodlama Aracı iki farklı çıktı üretir (ve dinamik olar
     Bu durumlarda, arama alanında daha fazla bilgi girmeniz önerilir.
     
 
-    ### Esnek Arama <a name="flexible-search"></a> 
+    ### Esnek Arama 
 
     Esnek arama özelliği, Kodlama Aracı'nın normal aramasının herhangi bir sonuç döndürmediği durumlarda kullanılabilir.
 
@@ -99,14 +99,14 @@ Arama devam ederken Kodlama Aracı iki farklı çıktı üretir (ve dinamik olar
     AEklenen başka bir esneklik de kelimelerin bazı daha geniş varyantlarını denemektir. Örneğin, kullanıcı _Akciğer adenosarkomu_ ararsa, _Bronş veya akciğerin Malign neoplazmaları, belirtilmemiş_ sonucunu alacaktır. Bu da "adenosarkom" ibaresi yerine "malign neoplazm" denenerek yapılır.
 
 
-    ### Hızlı Kopyalama <a name="quick-copying"></a>
+    ### Hızlı Kopyalama
 
     Koda (veya kodun başlığına) tıklamak veya klavyede enter tuşuna basmak, seçilen kodu panoya kopyalar. Panoya hangi kodun kopyalandığını istediğiniz zaman sayfanın sağ üst kısmından kontrol edebilirsiniz:
 
     ![screenshot of Coding Tool entity code copied in the clipboard](img/entity-clipboard-v4.png "Kodlama Aracı kopyalanan öğe kodunu panoya alma")
 
     
-    ### Öğe Detayları <a name="entity-details"></a>
+    ### Öğe Detayları
 
     Her sonucun sağındaki "Detaylar" bağlantısına (veya küçük simgelerden birine) tıklandığında öğe ayrıntıları içeriği açılır (aşağıdaki ekran görüntülerine bakın):
 
@@ -122,7 +122,7 @@ Arama devam ederken Kodlama Aracı iki farklı çıktı üretir (ve dinamik olar
 
     ![screenshot of Coding Tool entity details show all matching terms](img/entity-details-matching-terms-all-v4.png "Kodlama Aracı öğe ayrıntıları, eşleşen tüm terimleri gösterir")
                 
-3. ## Bölüm dağılımı / filtre <a name="chapter-distribution-filter"></a>
+3. ## Bölüm dağılımı / filtre
     
     Sağ tarafta, bir anahtar düğmesi aracılığıyla, Kodlama Aracı bölüm dağılımını gösterir ve arama için filtreler ayarlanabilir.
 

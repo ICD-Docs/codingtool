@@ -88,9 +88,24 @@ For example, when postcoordinating Unintentional land transport traffic event in
 When multiple values for an axis are not allowed and the user clicks on the second one, the system will replace the existing value. For example, when you are postcoordinating with severity and have already chosen mild as a value, clicking on moderate will replace the mild value with the moderate value. 
 
 
+## Postcoordination / pre-coordination equivalence
+
+In certain cases the combination built by the user may be equivalent to an existing entity in the classification. In these cases, the system will automatically use the pre-coordinated concept when it's building a code. In the example below, the user has chosen Invasive carcinoma of breast and post-coordinated it with Infiltrating duct carcinoma, NOS. However, instead of giving two codes, the system gives just one code because in the classification there is a category for this combination i.e. 2C61.0 Invasive ductal carcinoma of breast and therefore it is given as the code.
+
+![screenshot of the pre-coordination equivalence](img/pre-coordination.png "Pre-coordination equivalence")
+
+
 ## Nested postcoordination
 
 In certain cases the system may provide further specification of the postcoordination values. If the specific detail is known then select the more precise entity. If not then select the less specific entity.
 
 ![screenshot of Coding Tool nested postcoordination](img/postcoord-nested-v4.png "Coding Tool nested postcoordination")
 
+
+## Other postcoordination
+
+Many entities have suggested or required postcoordination axes that are relevant to them. You can see these axes in the postcoordination area and use them to refine your entity.
+
+However, sometimes you may need to postcoordinate an entity with other entities that are not suggested or required. In that case, you can use the "other postcoordination" area to build your postcoordination expression using a wider set of classification entities.
+
+![screenshot of Coding Tool other postcoordination](img/other-postcoordination.png "Coding Tool other postcoordination")

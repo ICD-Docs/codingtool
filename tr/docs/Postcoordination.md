@@ -34,7 +34,7 @@ Entegre ICD-11 tarayıcısında, karşılık gelen eşleşen terim "Seçilen ter
 ![screenshot of Coding Tool postcoordination selected term in browser](img/postcoord-selected-term-in-browser-v4.png "Kodlama Aracı tarayıcıda seçilen terim postkooridasyonu")
 
 
-## Görselleştirme / Değer kümelerinde arama <a name="displaying-searching-value-sets"></a>
+## Görselleştirme / Değer kümelerinde arama
 
 Postkoordinasyon eksenlerinin bazıları Lateralite gibi daha küçük bir olası değerler kümesinden değerler alırken, bazı eksenler Histopatoloji gibi daha büyük bir değer kümesinden değerler alabilir.
 
@@ -53,7 +53,7 @@ Postkoordinasyon eksenlerinin bazıları Lateralite gibi daha küçük bir olas�
     ![screenshot of Coding Tool search postcoordination example](img/postcoord-search-v4.png "Kodlalam Aracı arama postkoordinasyon örneği")
 
 
-## Kod Dizisi Oluşturma <a name="building-a-code-string"></a>
+## Kod Dizisi Oluşturma
 
 Bir kod oluşturmak için arama sonuçlarında, hiyerarşide veya daha kısa listelerde görüntülenen değerlere tıklamanız gerekir. 
 
@@ -64,7 +64,7 @@ The postcoordination selections are shown at the top of the postcoordination sec
 ![screenshot of Coding Tool building a code string](img/postcoord-build-v4.png "Kodlama Aracı kodlama dizisi oluşturma")
 
 
-## Aynı eksenden birden fazla değer kullanarak postkoordinasyon <a name="postcoordination-using-multiple-values-from-the-same-axis"></a>
+## Aynı eksenden birden fazla değer kullanarak postkoordinasyon
 
 Sistem, postkoordinasyon eksenlerinin çoğunda eksen başına bir değere izin verir.      
 Örneğin, "şiddet" ile postkoordinasyon yaparken aynı anda "hafif" ve "orta" değerini seçemezsiniz. Ancak, belirli eksenler için sistem birden fazla değer seçilmesine izin verir. Birden fazla değere izin veren eksen türleri aşağıda listelenmiştir:
@@ -87,9 +87,24 @@ Bazı dış neden eksenleri için, yalnızca farklı bloklardan geldiklerinde bi
 Bir eksen için birden fazla değere izin verilmediğinde ve kullanıcı ikinci kez bir seçeneğe tıkladığında, sistem mevcut seçilmiş değeri son tıklanan değer ile değiştirecektir. Örneğin, şiddet ile postkoordinasyon yapıyorsanız ve zaten bir değer olarak hafif'i seçtiyseniz, orta'ya tıklamak hafif değeri orta değerle değiştirecektir. 
 
 
-## İç içe postkoordinasyon <a name="nested-postcoordination"></a>
+## Postkoordinasyon / prekoordinasyon eşdeğerliliği
+
+IBelirli durumlarda, kullanıcı tarafından oluşturulan kombinasyon, sınıflandırmadaki mevcut bir öğeye eşdeğer olabilir. Bu durumlarda, sistem bir kod oluştururken otomatik olarak prekoordine edilmiş konsepti kullanacaktır. Aşağıdaki örnekte, kullanıcı İnvaziv meme karsinomasını seçmiş ve bunu İnfiltratif duktus karsinomu, BTB ile postkoordine etmiştir. Ancak sistem iki kod vermek yerine sadece bir kod verir çünkü sınıflandırmada bu kombinasyon için bir kategori vardır. Yani 2C61.0 Memenin invaziv duktal karsinomu ve bahsi geçen nedenle bu şekilde tek bir kod verilir. 
+
+![screenshot of the pre-coordination equivalence](img/pre-coordination.png "Pre-coordination equivalence")
+
+
+## İç içe postkoordinasyon
 
 Bazı durumlarda sistem, postkoordinasyon değerlerinin daha fazla detaylanmasını sağlayabilir. Spesifik detay biliniyorsa, daha kesin olan öğeyi seçin. Değilse, daha az spesifik öğeyi seçebilirsiniz.
 
 ![screenshot of Coding Tool nested postcoordination](img/postcoord-nested-v4.png "Kodlama Aracı iç içe postkoordinasyon")
 
+
+## Diğer postkoordinasyon
+
+Birçok kalemde, o kalem ile ilgili postkoordinasyon eksenleri önerilmiş veya gerekli kılınmıştır. Bu eksenleri postkoordinasyon alanında görebilir ve kullandığınız kalemi iyileştirmek için kullanabilirsiniz.
+
+Ancak bazen bir kalemi, altında önerilmeyen veya gerekli kılınmayan diğer sınıflandırma kalemleriyle postkoordine etmeniz gerekebilir. Bu durumda, daha geniş bir sınıflandırma kalemleri kümesi kullanarak postkoordinasyon ifadenizi oluşturmak için "diğer postkoordinasyon" alanını kullanabilirsiniz.
+
+![screenshot of Coding Tool other postcoordination](img/other-postcoordination.png "Coding Tool other postcoordination")

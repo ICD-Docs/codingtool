@@ -86,9 +86,25 @@ Par exemple, lors de la postcoordination d'un « Evénement de transport terrest
 
 Lorsque plusieurs valeurs pour un axe ne sont pas autorisées et que l'utilisateur clique sur la deuxième, le système remplace la valeur existante. Par exemple, lorsque vous effectuez une postcoordination avec la gravité et que vous avez déjà choisi la valeur « léger », le fait de cliquer sur « modéré » remplacera la valeur « léger » par la valeur « modéré ».
 
+
+## Equivalence postcoordination / précoordination
+
+Dans certains cas, la combinaison construite par l'utilisateur peut être équivalente à une entité existante dans la classification. Dans ces cas, le système utilisera automatiquement le concept précoordonné lorsqu'il construira un code. Dans l'exemple ci-dessous, l'utilisateur a choisi le Carcinome invasif du sein et l'a postcoordonné avec le Carcinome canalaire infiltrant, SAI. Cependant, au lieu de donner deux codes, le système n'en donne qu'un seul car dans la classification il y a une catégorie pour cette combinaison : le 2C61.0 Carcinome canalaire invasif du sein est donc donné comme le code à utiliser. 
+
+![capture d'écran de la précoordination](img/pre-coordination.png "Précoordination equivalence")
+
+
 ## Postcoordination nichée
 
 Dans certains cas, le système peut fournir une spécification supplémentaire des valeurs de postcoordination. Si le détail spécifique est connu, sélectionnez l'entité la plus précise. Sinon, sélectionnez l'entité la moins précise.
 
 ![capture d'écran de la postcoordination imbriquée de l'outil de codage](img/postcoord-nested-v4.png "Postcoordination imbriquée de l'outil de codage")
 
+
+## Autre postcoordination
+
+De nombreuses entités ont des axes de postcoordination suggérés ou obligatoires qui les concernent. Vous pouvez voir ces axes dans la zone de postcoordination et les utiliser pour affiner votre entité.
+
+Cependant, vous devrez parfois postcoordonner une entité avec d'autres entités qui ne sont ni suggérées ni requises. Dans ce cas, vous pouvez utiliser la zone « autre postcoordination » pour construire votre expression de postcoordination en utilisant un ensemble plus large d'entités de classification.
+
+![capture d'écran de l'autre postcoordination](img/other-postcoordination.png "Autre postcoordination")
